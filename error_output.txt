@@ -1,0 +1,38 @@
+Building: Sample (Debug|iPhoneSimulator)
+
+Building Solution Sample
+
+Building: Test (Debug|iPhoneSimulator)
+
+Performing main compilation...
+/Developer/MonoTouch/usr/bin/smcs /noconfig "/out:/Users/brian/development/Sample/Test/bin/iPhoneSimulator/Debug/Test.dll" "/r:/Developer/MonoTouch/usr/lib/mono/2.1/System.dll" "/r:/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll" "/r:/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll" "/r:/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll" "/r:/Users/brian/development/Sample/lib/Rhino.Mocks.dll" /nologo /warn:4 /debug:+ /debug:full /optimize- /codepage:utf8 "/define:DEBUG"  /t:library "/Users/brian/development/Sample/Test/Test.cs" 
+The class System.Diagnostics.EventLog could not be loaded, used in System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089The class System.Diagnostics.TraceSource could not be loaded, used in System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+
+Unhandled Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+  at (wrapper managed-to-native) System.Reflection.Assembly:GetTypes (bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.RootNamespace.ComputeNamespaces (System.Reflection.Assembly assembly, System.Type extensionType) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.RootNamespace.ComputeNamespace (Mono.CSharp.CompilerContext ctx, System.Type extensionType) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.GlobalRootNamespace.ComputeNamespaces (Mono.CSharp.CompilerContext ctx) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.LoadReferences () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.Compile () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+
+
+
+Unhandled Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+  at (wrapper managed-to-native) System.Reflection.Assembly:GetTypes (bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.RootNamespace.ComputeNamespaces (System.Reflection.Assembly assembly, System.Type extensionType) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.RootNamespace.ComputeNamespace (Mono.CSharp.CompilerContext ctx, System.Type extensionType) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.GlobalRootNamespace.ComputeNamespaces (Mono.CSharp.CompilerContext ctx) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.LoadReferences () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.Compile () [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.Driver.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+Build complete -- 1 error, 0 warnings
+
+---------------------- Done ----------------------
+
+Build: 1 error, 0 warnings
+
